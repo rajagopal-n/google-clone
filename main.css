@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+	font-size: 10pt;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#top{
+	position: relative;
+	float:right;
+	right: 30px;
+}
+
+.toplink{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 20px;
+	/* margin-right: 200px; */
+	margin-top: 1px;
+	/* top: 10px; */
+}
+
+.toplink a{
+	text-decoration: none;
+	color: rgb(64, 64, 64);
+}
+
+.toplink:hover{
+	text-decoration: underline;
+}
+
+.topimg{
+	display: inline-block;
+	height: 23px;
+
+	width: 23px;
+
+	position: relative;
+
+	padding-left: 15px;
+	padding-right: 15px;
+	/* right: 117px; */
+
+	top: 7px;
+}
+
+#sign_in{
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 4px 4px 4px 4px;
+    border: 2px solid;
+    height: 34px;
+    width: 74px;
+    background: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234)) repeat scroll 0% 0% transparent;
+    font-family: arial;
+    font-size: 10pt;
+}
+
+section {
+    text-align: center;
+    position: absolute;
+    margin-top: 200px;
+    min-height: 432px;
+    width: 100%;
+}
+
+#googleimg{
+	height: 95px;
+	width: auto;
+}
+
+section p:nth-child(2) {
+    position: relative;
+    top: 20px;
+}
+
+#search{
+	height: 25px;
+	width: 560px;
+	border: 1px solid rgb(220, 220, 220);
+	background: url("images/microphone.png") no-repeat 100% center / 24px 24px transparent;
+}
+
+section p:nth-child(3) {
+position: relative;
+top: 40px;
+}
+
+#googlesearch{
+	border-radius: 3px 3px 3px 3px;
+border: 1px solid rgb(220, 220, 220);
+background-color: rgb(242, 242, 242);
+	/*background: linear-gradient(rgb(239, 252, 251), rgb(247, 249, 252)) repeat scroll 0% 0% transparent;*/
+	font-family: arial;
+font-weight: bold;
+font-size: 8pt;
+	height: 28px;
+	margin-right: 10px;
+}
+
+
+#imlucky{
+	border-radius: 3px 3px 3px 3px;
+border: 1px solid rgb(220, 220, 220);
+background-color: rgb(242, 242, 242);
+	/*background: linear-gradient(rgb(239, 252, 251), rgb(247, 249, 252)) repeat scroll 0% 0% transparent;*/
+	font-family: arial;
+font-weight: bold;
+font-size: 8pt;
+	height: 28px;
+}
+
+footer{
+background: none repeat scroll 0% 0% rgb(242, 242, 242);
+border-top: 1px solid rgb(228, 228, 228);
+bottom: 0px;
+padding-top: 14px;
+padding-bottom: 14px;
+position: fixed;
+width: 100%;
+height: 13px;
+}
+
+#footerleft{
+	position: absolute;
+	float: left;
+	color: rgb(102, 102, 102);
+	margin-left: 0px;
+}
+
+
+#footerleft a{
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+	/* padding-left: 40px; */
+	/* right: 20pt; */
+}
+
+#footerleft a:first-child{
+	position: relative;
+	left: 27px;
+}
+#footerleft a:nth-child(2){
+	position: relative;
+	left: 55px;
+}
+#footerleft a:nth-child(3){
+	position: relative;
+	left: 80px;
+}
+
+#footerleft a:hover{
+	
+	text-decoration: underline;
+}
+
+#footerright{
+	float: right;
+	color: rgb(102, 102, 102);
+
+	position: absolute;
+	right: 10pt;
+}
+
+#footerright a{
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+	/* padding-left: 40px; */
+	/* right: 20pt; */
+}
+
+#footerright a:hover{
+	
+	text-decoration: underline;
+}
+
+#footerright a:first-child{
+	position: relative;
+	right: 70px;
+}
+#footerright a:nth-child(2){
+	position: relative;
+	right: 40px;
+}
